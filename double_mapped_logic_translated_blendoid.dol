@@ -24,6 +24,6 @@ logic CommonLogic
 ontology DMLTB-TheClifOne =
   DMLTB-MyTables
 then
-  (P x)
-  (Table foo)
+  . (P x)
+  . (exists Table)
 end
